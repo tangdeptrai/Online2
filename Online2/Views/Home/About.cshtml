@@ -1,0 +1,113 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+@{
+    ViewBag.Title = "About";
+}
+@*Layout*@
+<!DOCTYPE html>
+<link href="~/Content/plan-page.css" rel="stylesheet" />
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+    <section class="pricing-plans">
+        <article class="plan">
+            <h2>Inspection</h2>
+            <p class="price">$300.00</p>
+            <ul>
+                <li>Auto Product Liability</li>
+                <li>Crib Recall</li>
+                <li>Defective Medical Device</li>
+                <li>Food Poisoning</li>
+            </ul>
+            <button>Contact Now</button>
+        </article>
+
+        <article class="plan">
+            <h2>Diagnostic</h2>
+            <p class="price">$400.00</p>
+            <ul>
+                <li>Auto Product Liability</li>
+                <li>Crib Recall</li>
+                <li>Defective Medical Device</li>
+                <li>Food Poisoning</li>
+            </ul>
+            <button>Contact Now</button>
+        </article>
+
+        <article class="plan">
+            <h2>Upgrades</h2>
+            <p class="price">$500.00</p>
+            <ul>
+                <li>Auto Product Liability</li>
+                <li>Crib Recall</li>
+                <li>Defective Medical Device</li>
+                <li>Food Poisoning</li>
+            </ul>
+            <button>Contact Now</button>
+        </article>
+    </section>
+    @*CSS*@
+    <style>
+        body {
+            font-family: Lato, sans-serif;
+            background: url(plan-page.jpg);
+            font-size: 16px;
+            width: 1180px;
+            margin: 0 auto; /* Center the body content */
+        }
+
+        section {
+            text-align: center;
+        }
+
+        article {
+            background: #262626;
+            display: inline-block;
+            margin: 80px 20px 0 20px;
+            border: 5px solid #424242;
+            color: #a1a1a1;
+        }
+
+            article h2 {
+                font-size: 1.5em;
+                color: #FFF;
+            }
+
+            article .price {
+                font-size: 3em;
+                font-weight: bold;
+                color: #27dcc4;
+            }
+
+            article ul {
+                list-style-type: none;
+                padding: 5px 0;
+            }
+
+            article li {
+                padding: 0;
+            }
+
+            article button {
+                background: #27dcc4;
+                color: #FFF;
+                padding: 15px 30px;
+                margin: 10px 0;
+                font-size: 0.9em;
+                cursor: pointer;
+                border: none;
+            }
+
+                article button:hover {
+                    background: #ACACAC;
+                }
+
+        body {
+        }
+    </style>
+</head>
+
+</html>
